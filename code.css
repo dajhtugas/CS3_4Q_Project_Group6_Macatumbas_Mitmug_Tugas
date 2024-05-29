@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bevver.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(58, 138, 102);
+}
+.headertext{
+    font-size: 7vh;
+    top: -1.5%;
+    right: 5%;
+    position: fixed;
+}
+.elipse{
+    top: 2vh;
+    left: 5%;
+    position: fixed;
+}
+.elipseImg{
+    height: 10vh;
+    border-radius: 50%;
+}
+.logo{
+    height: 13vh;
+    border-radius: 50%;
+}
+.logodiv{
+    top: 1vh;
+    right: 55vw;
+    position: fixed;
+}
+
+/*form {
+    display: flex;
+    flex-direction: column;
+}*/
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group div {
+    display: flex;
+    align-items: center;
+}
+
+.input-group div label {
+    margin-left: 10px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    width: 100px;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #444;
+}
+
+
+
+
+
+
+#lfname{
+    top: 30vh;
+    left: 15vw;
+    position: fixed;
+}
+#fname{
+    top: 35vh;
+    left: 15vw;
+    position: fixed;
+}
+#llname{
+    top: 30vh;
+    left: 30vw;
+    position: fixed;
+}
+#lname{
+    top: 35vh;
+    left: 30vw;
+    position: fixed;
+}
+#lemail{
+    top: 45vh;
+    left: 15vw;
+    position: fixed;
+}
+#email{
+    top: 50vh;
+    left: 15vw;
+    position: fixed;
+}
+#lpword{
+    top: 45vh;
+    left: 30vw;
+    position: fixed;
+}
+#pword{
+    top: 50vh;
+    left: 30vw;
+    position: fixed;
+}
+#lcnum{
+    top: 60vh;
+    left: 15vw;
+    position: fixed;
+}
+#cnum{
+    top: 65vh;
+    left: 15vw;
+    position: fixed;
+}
+#sev{
+    right: 20%;
+    top: 30vh;
+    position: fixed;
+}
+#lreason{
+    left: 47%;
+    top: 30vh;
+    position: fixed;
+}
+#reason{
+    left: 47%;
+    top: 35vh;
+    position: fixed;
+}
+#submit{
+    top: 75vh;
+    left: 15vw;
+    position: fixed;
+}
+fieldset{
+    top: 20%;
+    left: 5%;
+    position: fixed;
+    width: 88vw;
+    height: 65vh;
+    border: 2px solid black;
+}
+legend{
+    text-align: center;
+    font-size: 5vh;
+}
+.shadow{
+    height: 74vh;
+    width: 94vw;
+    top: 18vh;
+    left: 3vw;
+    position: fixed;
+    background-color: aliceblue;
+    opacity: 60%;
+}

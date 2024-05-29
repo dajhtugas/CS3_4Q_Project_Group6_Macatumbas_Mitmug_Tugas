@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="headertext">Beavers of Eurasia Association</h1>
+        <div class="logodiv">
+            <img class="logo" src="images/logobea.png">
+        </div>
+        <div class="elipse">
+            <img class="elipseImg" src="images/ellipsis-icon-free-vector.jpg">
+        </div>
+    </div>
+    <form>
+        <div class="shadow"></div>
+        <fieldset class="legend">
+        <legend>Sign Up</legend>
+            <span id="fir">
+                <label for="fname" id="lfname"><strong>FIRST NAME</strong></label>
+                <label for="lname" id="llname"><strong>LAST NAME</strong></label><br>
+            </span>
+            <span id="sec">
+                <input type="text" id="fname" name="fname"> 
+                <input type="text" id="lname" name="lname"><br><br>
+            </span>
+            <span id="thi">
+                <label for="email" id="lemail"><strong>EMAIL</strong></label>
+                <label for="pword" id="lpword"><strong>PASSWORD</strong></label><br>
+            </span>
+            <span id="fou">
+                <input type="text" id="email" name="email">
+                <input type="password" id="pword" name="pword"><br><br>
+            </span>
+           <span id="fif">
+                <label for="cnum" id="lcnum"><strong>CONTACT NUMBER</strong></label><br>
+                <input type="text" id="cnum" name="cnum"><br><br>
+           </span>
+           <span id="six">
+                <label for="reason" id="lreason"><strong>REASON</strong></label><br>
+                <textarea name="reason" id="reason" cols="30" rows="10"></textarea><br>
+           </span>
+           <span id="sev">
+                <label for="sex" id="lsex"><strong>SEX</strong></label><br>
+                <input type="radio" value="Male" name="opt" id="sexMale">
+                <label for="Male">MALE</label><br>
+                <input type="radio" value="Female" name="opt" id="sexFemale">
+                <label for="Female">FEMALE</label><br>
+                <input type="radio" value="Prefer not to say" name="opt" id="sexPreferNotToSay">
+                <label for="Prefer not to say">PREFER NOT TO SAY</label>
+           </span>
+           <br>
+            <input type="button" onclick="submitting()" value="sign up" id="submit">
+        </fieldset>
+    </form>
+    <link rel="stylesheet" href="code.css">
+    <script src="code.js"></script>
+</body>
+</html>
